@@ -1,4 +1,10 @@
 # Rate Limiter using Spring Cloud Gateway
+
+## Architecture
+![Architecture](./architecture.png)
+
+## Code Changes
+
 The following config enables rate limiters and routes the traffic to backend instance which is a dropwizard app.
 This app runs on `8082` port.
 
